@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Lista recetas {% endblock %}
+{% block head %}
+{{super()}}
+
+{% endblock %}
+{% block body %}
+
+
+
+<div class="contenedor__animal">
+    
+    <div  class="caja__trasera_mascotas"> 
+        <h2 id="titu"> locales disponibles</h2>  
+
+        
+        <div>
+            <table>
+                
+                <tr>
+
+                    <th> Propietario </th>
+                    <th > Descripcion general </th>
+                    <th > Localizacion del local</th>
+                    <th > Celular del Propietario </th>
+                    <th > Correo del Propietario</th>
+                   
+                </tr>
+               
+                <tr>
+
+                    {% for id,diccionario in dicc_citas.items() %} 
+                    {% if diccionario['usuario'] == session['usuario']  %}
+                      <th>{{diccionario['mascota']}} </th>
+                
+                      <th>{{diccionario['atencion']}}</th>
+                      <th> {{diccionario['datos']}} </th>
+                      
+                      <th><a href=/pdf/> Generar pdf  </a>  </th>
+                
+                  </tr>
+
+                     {% endif %}
+            
+                              
+              
+                     {% endfor %}
+              </table>
+           
+
+        </div>
+
+       
+
+
+
+
+    </div>
+</div>
+
+
+        
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}

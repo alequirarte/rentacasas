@@ -1,0 +1,7 @@
+usuario,usuario,nombre,correo,password,tipo
+Cliente,Cliente,Cliente,Cliente@gmail.com,$5$rounds=535000$CuEbbnU.BqUr063s$sfO0zq2/v.rD8mfkB/AqEzRy0O1hXpC6kUMI5biiyIA,usuario
+Yorgi,Yorgi,JoseGilberto,josegilberto@gmail.com,$5$rounds=535000$67qkJNBj5YKeANvF$qyNSCOxAPVl2sZwx/PAQLe9PovDYUYmJ58T0ZWtA2CC,usuario
+siu,siu,JoseGilbertos,josegilberto@gmail.com,$5$rounds=535000$l0SGwhC6CY0n5MQD$VrJNZWMLrFOmJwl.ZpbByhnL3h5mJPiVYPV87aXQND2,usuario
+JOGIBEDA,JOGIBEDA,CHAMOI,josegilberto@gmail.com,$5$rounds=535000$ywsm9LkEUHMsGEKk$JjSqbSBuaimhp4ZvGcKmT1BZsDMLOc1g1iG71VvZYM9,Cliente
+alequack,alequack,Alejandra,ale-ale_6@hotmail.com,$5$rounds=535000$Xssr5.L6/7KidwNc$i0w0D0NfZxYnNpwH031QP0ZzZlGyKo2tHnx3AF4WyY7,Cliente
+andres,andres,Andres,ari@hotmail.com,$5$rounds=535000$J/ktd57w6PBNs/9B$4yqQh4sjHdfNsuSDQH/VkjJcx4BpMaJOT3QGiPzC4fB,Cliente
